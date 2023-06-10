@@ -1,29 +1,56 @@
 {
-  "name": "learning-way-campus",
+  "name": "leasing-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/lab": "^5.0.0-alpha.129",
+    "@mui/material": "^5.13.0",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "axios": "^1.4.0",
+    "dotenv-cli": "^7.2.1",
+    "enzyme": "^3.11.0",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.0.7",
+    "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
+    "redux-mock-store": "^1.5.4",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "quotes": [
+        0,
+        "single"
+      ],
+      "semi": [
+        0,
+        "never"
+      ],
+      "no-shadow": 0,
+      "no-console": 0,
+      "prefer-const": 0,
+      "max-len": 0
+    }
   },
   "browserslist": {
     "production": [
@@ -36,5 +63,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "jest": "^27.5.1",
+    "msw": "^1.2.1",
+    "react-router-dom": "^6.11.1"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

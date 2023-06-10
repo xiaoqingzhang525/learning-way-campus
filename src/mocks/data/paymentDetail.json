@@ -1,0 +1,7 @@
+{
+  "originPaymentAmount": 10000,
+  "paymentFrequency": "每年",
+  "currency": "USD",
+  "discount": "八折",
+  "paymentAmount": 8000
+}

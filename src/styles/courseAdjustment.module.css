@@ -1,0 +1,35 @@
+.root,.courseAdjustment {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 100px;
+  flex-direction: column;
+  height: 700px;
+  justify-content: space-between;
+}
+.courseAdjustment{
+  height: 400px
+}
+.details{
+  margin: 20px;
+}
+.alert{
+  padding:100px
+}
+
+
+.item{
+  background-color:darkgray;
+  text-align: center;
+}
+
+.adjustedItem {
+  background-color: burlywood;
+  text-align: center;
+}
+
+.noDataDescription {
+  text-align: center;
+  width: 100%;
+}

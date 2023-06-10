@@ -1,0 +1,7 @@
+.paymentDetail{
+  padding:200px;
+}
+.cardAction {
+  display: flex;
+  justify-content: flex-end;
+}

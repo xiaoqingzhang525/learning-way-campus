@@ -1,0 +1,18 @@
+{
+  "courseId": "123",
+  "courseName": "数学",
+  "adjustmentList": [
+    {
+      "id": "1",
+      "originContent": "内容部分1",
+      "adjustedContent": "改进后内容1",
+      "status": "Added"
+    },
+    {
+      "id": "2",
+      "originContent": "内容部分2",
+      "adjustedContent": "改进后内容2",
+      "status": "Edited"
+    }
+  ]
+}
